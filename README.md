@@ -32,15 +32,15 @@ We also provide the datasets described in Sec. 3.1 of our paper.
 ### Training Data for Property Prediction Neural Networks
 
 `.\src\data_training` contains the datasets created by sampling the blending coefficients. They are used to train the property prediction models for data-driven topology optimization.
-    - `*_coeffs.csv` are the coefficients of the shape blending scheme, or the predictors (X) in the models.
-    - `*_props.csv` are the linear elastic stiffness tensor components and volume fractions, or the responses (Y) in the models. 
+
+- `*_coeffs.csv`: Coefficients of the shape blending scheme, or the predictors (X) in the models
+- `*_props.csv`: Linear elastic stiffness tensor components and volume fractions, or the responses (Y) in the models
 
 ### Morphology types
 
 Each folder above contains the datasets for two morphology types:
 
 - `dpp_2d_sp20`: Shape and property diverse freeform classes (20 total; only the first 5 are used in the paper)
-
 - `truss_2d_red5`: Truss-type classes (5 total)
 
 ## Citation
