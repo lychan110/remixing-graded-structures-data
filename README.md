@@ -1,6 +1,6 @@
-# remixing-graded-structures-data
+# Demo and data of the multiclass shape blending method
 
-The multiclass blending code and data of "Remixing Functionally Graded Structures: Data-Driven Topology Optimization with Multiclass Shape Blending" by Chan et al. Using this blending scheme, functionally graded structures can be optimized under a data-driven framework.
+The multiclass blending code and data from "Remixing Functionally Graded Structures: Data-Driven Topology Optimization with Multiclass Shape Blending" by Chan et al. Using this blending scheme, functionally graded structures can be optimized under a data-driven framework. Check out our paper and extensions of our work at the end of this page!
 
 ![RemixFramework](./img/Figxx_blending_demo_v2.png?raw=true)
 
@@ -36,7 +36,7 @@ We also provide the datasets described in Sec. 3.1 of our paper.
 - `*_coeffs.csv`: Coefficients of the shape blending scheme, or the predictors (X) in the models
 - `*_props.csv`: Linear elastic stiffness tensor components and volume fractions, or the responses (Y) in the models
 
-### Morphology types
+### Morphology Types
 
 Each folder above contains the datasets for two morphology types:
 
@@ -47,7 +47,7 @@ Each folder above contains the datasets for two morphology types:
 
 If our data and/or code has been useful in your research, please cite our work:
 
-Chan, Y.-C., Da, D., Wang, L. et al. [Remixing functionally graded structures: data-driven topology optimization with multiclass shape blending](https://doi.org/10.1007/s00158-022-03224-x). _Struct Multidisc Optim_ 65, 135 (2022).
+Chan, Y.-C., Da, D., Wang, L. et al. (2022). [Remixing functionally graded structures: data-driven topology optimization with multiclass shape blending](https://doi.org/10.1007/s00158-022-03224-x). _Structural and Multidisciplinary Optimization_, 65(5), 135.
 
 - [arXiv version available](https://arxiv.org/abs/2112.00648)
 
@@ -64,3 +64,6 @@ Chan, Y.-C., Da, D., Wang, L. et al. [Remixing functionally graded structures: d
 	journal = {Structural and Multidisciplinary Optimization}
 }
 ```
+
+## Papers using the Multiclass Shape Blending Method
+- Lee, D., Chan, Y. C., Chen, W., Wang, L., van Beek, A., & Chen, W. (2023). t-METASET: Task-Aware Acquisition of Metamaterial Datasets Through Diversity-Based Active Learning. _Journal of Mechanical Design_, 145(3), 031704.
